@@ -165,38 +165,38 @@ https://simpleinjector.readthedocs.io/en/latest/index.html
     ProcessarFolhaPagamento();
     CalcularImpostoRenda();
     
- - Menos é mais!
-  * "A primeira regra dos métodos é que eles devem ser pequenos. A segunda regra é que eles devem ser menores ainda." (Uncle Bob)
-  * Método <= 20 linhas;
-  * Linha <= 100 caracteres;
-  * Classe <= 500 linhas;
+ - **Menos é mais!**
+   * "A primeira regra dos métodos é que eles devem ser pequenos. A segunda regra é que eles devem ser menores ainda." (Uncle Bob)
+   * Método <= 20 linhas;
+   * Linha <= 100 caracteres;
+   * Classe <= 500 linhas;
 
- - Métodos
-  * Extraia trechos em métodos privados;
-  * Métodos devem fazer apenas uma coisa, fazê-la certa e somente faze-la;
-  * Evite muitos parâmetros(ex. criar DTO);
-  * Não deixe o método mentir dizendo que faz uma coisa e faz outras "escondidas";
-  * Se o método tiver mais de uma responsabilidade extraia em dois ou mais (cada um com sua responsabilidade);
-  * Leia seu método de cima para baixo como uma narrativa, ele deve fazer sentido;
-  * Aplique uma boa indentação;
+ - **Métodos**
+   * Extraia trechos em métodos privados;
+   * Métodos devem fazer apenas uma coisa, fazê-la certa e somente faze-la;
+   * Evite muitos parâmetros(ex. criar DTO);
+   * Não deixe o método mentir dizendo que faz uma coisa e faz outras "escondidas";
+   * Se o método tiver mais de uma responsabilidade extraia em dois ou mais (cada um com sua responsabilidade);
+   * Leia seu método de cima para baixo como uma narrativa, ele deve fazer sentido;
+   * Aplique uma boa indentação;
 
- - Comentários
-  * Comentários não vão ajudar um código ruim ser melhor interpretado;
-  * Um código que requer comentário, precisa ser reescrito;
-  * Não deixe trechos de código comentado;
-  * Quando comentar?
+ - **Comentários**
+   * Comentários não vão ajudar um código ruim ser melhor interpretado;
+   * Um código que requer comentário, precisa ser reescrito;
+   * Não deixe trechos de código comentado;
+   * Quando comentar?
     * Alertar consequências que pode vir a causar;
     * Licença, direitos autorais, etc;
     * Necessidade de explicar uma regra de negócio interna;
     * Decisões de design de código (ex.: ToDo);
 
- - Tratamento de erros
-  * Tratar e prever possíveis exceções é de responsabilidade do desenvolvedor (try e catch só se for muito expecífico), logar;
-  * Retorne exceptions e não código de erro;
-  * Informe o máximo que puder em sua exception, por meio de log;
-  * Se necessário crie exceptions personalizadas para um problema eespecífico;
-  * Não retorne null;
-  * Regra dos escoteiros: "Deixe a área de acampamento mais limpa de como você a encontrou" (melhorar(refatorar) o maximo possivel o codigo que você esta alterando);
+ - **Tratamento de erros**
+   * Tratar e prever possíveis exceções é de responsabilidade do desenvolvedor (try e catch só se for muito expecífico), logar;
+   * Retorne exceptions e não código de erro;
+   * Informe o máximo que puder em sua exception, por meio de log;
+   * Se necessário crie exceptions personalizadas para um problema eespecífico;
+   * Não retorne null;
+   * Regra dos escoteiros: "Deixe a área de acampamento mais limpa de como você a encontrou" (melhorar(refatorar) o maximo possivel o codigo que você esta alterando);
     
 
 ### Design Patterns
@@ -335,14 +335,14 @@ e leitura de dados são realizados via Queries.
 exatamente no mesmo momento.
 - Muito aplicado em arquiteturas hexagonais, microservices ou em aplicações que possuem uma alta demanda de consumo de dados.
 
-Conceitos:
+**Conceitos**:
 
 Commands: Representam uma intenção de mudança no estado de uma entidade. São expressivos e representam uma única intenção de negócio, 
 ex: AumentarSlarioFuncionarioCommand
 
 Queries: É a forma de obter dados de um banco o origem de dados para atender as necessidades da aplicação
 
-Solução:
+**Solução**:
 
 Separar em 2 bancos um de leitura e outro de escrita, utilizando comandos para atualizar dados e consultas para ler dados.
 
@@ -494,7 +494,7 @@ https://danielsmanioto.com/blog/2020/01/18/dry-yagni-kiss-principios-de-design-d
 
 
 
-Leituras recomendadas
+## Leituras recomendadas
 
 Livros:
 
@@ -508,14 +508,64 @@ Livros:
 - Domain-Driven Design Distilled (3º) - Vaughn Vernon
 - C# 10 - Mark J. Price
 - Desing Pattern - gang of 4
+- Desingning Data-Intensive Applications - Martin Kleppmann
+- The Effective Enginner - Edmond Lau
+- Code Complete - Steve McConnell
+- Docker Deep Dive - Nigel Poulton
+- Concurrency in C# Cookbook: Asynchronous, Parallel, and Multithreaded Programming 2nd Edition - Stephen Cleary
 
-**Outros**:
+## Outros:
 
-Alternativa ao Automapper
+**Alternativa ao Automapper**
+
 https://riptutorial.com/csharp/example/19238/using-extension-methods-to-create-beautiful-mapper-classes
 
-EventstoreDB
+
+**EventstoreDB**: base de dados para Event Sourcing (banco de dados funcional com Complex Event Processing em JavaScript)
+
 https://www.eventstore.com/
 
-Rebus
+
+**Rebus**
+
 https://github.com/rebus-org/Rebus
+
+
+**Docker**: é um conjunto de produtos de plataforma como serviço que usam virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres. Os contêineres são isolados uns dos outros e agrupam seus próprios softwares, bibliotecas e arquivos de configuração.
+
+https://www.docker.com/
+
+
+**RabbitMQ**: é um software de mensagens com código aberto, que implementou o protocolo "Advanced Message Queuing Protocol", que foi estendido com uma arquitetura de plug-in para suportar o protocolo "Streaming Text Oriented Messaging Protocol", o MQTT entre outros protocolos
+
+https://www.rabbitmq.com/
+
+
+**Dapr**: é um sistema de tempo de execução gratuito e de código aberto projetado para suportar computação nativa em nuvem e sem servidor. Sua versão inicial suportava SDKs e APIs para Java, .NET, Python e Go e tinha como alvo o sistema de implantação de nuvem Kubernetes.
+
+https://dapr.io/
+
+
+
+## ORMs
+
+**Dapper**: um micro ORM que pode ser usado em aplicações menos complexas.
+
+https://github.com/DapperLib/Dapper
+https://www.learndapper.com/
+https://www.macoratti.net/19/09/cshp_dapb1.htm
+
+
+**Entity Framework**: é uma ferramenta ORM (Object-relational mapping) que permite ao desenvolvedor trabalhar com dados relacionais na forma de objetos específicos do domínio.
+
+https://learn.microsoft.com/en-us/ef/
+https://www.entityframeworktutorial.net/efcore/entity-framework-core.aspx
+https://www.macoratti.net/17/05/efcore_ini1.htm
+https://www.simplilearn.com/tutorials/asp-dot-net-tutorial/entity-framework-in-c-sharp
+
+
+**NHibernate**: é um framework para realizar o mapeamento objeto/relacional de modo a transformar os dados da estrutura lógica de um banco de dados relacional em objetos definidos no domínio de uma aplicação. Ele também realiza a persistência de objetos em banco de dados relacionais.
+
+https://nhibernate.info/
+https://github.com/nhibernate/nhibernate-core
+https://www.macoratti.net/19/07/aspnc_nhib1.htm
