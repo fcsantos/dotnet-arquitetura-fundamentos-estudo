@@ -1,11 +1,11 @@
 ## RESUMO
 
-### Classe x Objeto
+## Classe x Objeto
 
 - Classe: Definição de Classe: é uma estrutura de código ou dados que tem a função de mapear o objeto do mundo real;
 - Objeto: Definição de Objeto: é quando tem uma classe sendo instanciada e alocada na memória;
 
-### Pilares OOP
+## Pilares OOP
 
 - O **estado** é representado através de PROPRIEDADES de uma classe;
 - O **comportamento** é quando gera ou processa uma informação, através de um MÉTODO da classe ou altera o estado da classe (modifica o valor da propriedade);
@@ -18,14 +18,14 @@
 - **Poli-morfismo**: a classe derivada pode assumir diversos comportamentos;
 - **Encapsulamento**: é a arte de encapsular comportamentos(métodos) através da exposição de métodos PUBLIC e esconder certos comportamentos a escrita de métodos PRIVATE (preservando certas implementações);
 
-### Interface
+## Interface
 
 - **Interface**: é uma espécie de contrato simples, então toda classe que implementa uma interface ela é obrigada a implementar seus métodos;
     
     **OBS**: não pode ser comparada com a Classe Abstrata, porque uma classe abstrata forca a implementacao de metodos tambem
       implementa alguns comportamentos que podem ser derivados
 
-### Modificadores
+## Modificadores
 - **classe selada** só pode ser instanciada e não herdada;
 - **Classe e Método PUBLIC**: Access is not restricted;
 - **Classe e Método PROTECTED**: Access is limited to the containing class or types derived from the containing class;
@@ -34,7 +34,7 @@
 - **Classe e Método PRIVATE**: Access is limited to the containing type;
 - **Método PRIVATE PROTECTED**: Access is limited to the containing class or types derived from the containing class within the current assembly.Available since C# 7.2;
 
-### Princípios SOLID
+## Princípios SOLID
 
 SOLID é um acrônimo dos cinco primeiros princípios da OOP e design de codigo identificados por Roberc C. Martin (Uncle Bob).
 
@@ -75,7 +75,7 @@ Exemplo: ICadastroCliente e ICadastroProduto herdam de ICadastro
 
 https://github.com/ardalis/SolidSample
 
-### Dependency Injection
+## Dependency Injection
 
 - **Transient**: Modelo padrão (quando não se sabe como usar, seria a melhor escolha), vai ser criada toda vez que for injetada em alguma classe, funciona melhor em objetos leves ou serviços sem estado (ocupa mais memória, porque toda vez que é requisitado cria uma instancia);
 - **Scoped**: Os objetos são criados uma vez por client request (por conexão), muito utilizado em aplicações Web;
@@ -89,7 +89,7 @@ https://www.palmmedia.de/blog/2011/8/30/ioc-container-benchmark-performance-comp
 
 https://simpleinjector.readthedocs.io/en/latest/index.html
 
-### Clean Code
+## Clean Code
 - **O que é um código limpo?**
   * Simples;
   * Direto;
@@ -201,7 +201,7 @@ https://simpleinjector.readthedocs.io/en/latest/index.html
    * Regra dos escoteiros: "Deixe a área de acampamento mais limpa de como você a encontrou" (melhorar(refatorar) o maximo possivel o codigo que você esta alterando);
     
 
-### Design Patterns
+## Design Patterns
 - São padrões de código para solução de problemas conhecidos;
 - O objetivo é não reinventar a roda e aplicar uma solução com um bom design de código;
 - O conceito de padrões foi introduzido por 4 desenvolvedores intitulados "Gang of Four" (GoF) e hoje conta com 23 padrões fundamentais;
@@ -234,7 +234,7 @@ https://refactoring.guru/pt-br/design-patterns/catalog
 
 https://github.com/KevinDockx/CSharp10DesignPatterns
 
-### Arquitetura de Software
+## Arquitetura de Software
 
 - **Estilos Arquiteturais**
 
@@ -282,7 +282,7 @@ https://www.guru99.com/microservices-vs-soa.html
 
 
 
-### Padrões arquiteturais
+## Padrões arquiteturais
 
 - Os Padrões arquiteturais são semelhantes aos "Desing Patterns", mas possuem um escopo diferente.
 - Padrões arquiteturais são estratégias de alto nível que dizem respeito a componentes de grande escala, as propriedades e mecanismos globais de um sistema.
@@ -337,7 +337,7 @@ https://medium.com/tableless/desvendando-a-arquitetura-hexagonal-52c56f8824c
 
 
 
-### CQRS - Command Query Reponsability Segregation
+## CQRS - Command Query Reponsability Segregation
 
 - Um padrão arquitetural onde o foco principal é separar os meios de leitura e escrita de dados. Alterações de dados são realizados via Commands 
 e leitura de dados são realizados via Queries.
@@ -367,7 +367,7 @@ https://www.eduardopires.net.br/2016/07/cqrs-o-que-e-onde-aplicar/
 
 
 
-### Event Sourcing
+## Event Sourcing
 
 - "Nós podemos buscar o estao de uma aplicação para encontrar o estado atual do mundo, e isso responde muitas perguntas. Entretanto há momentos que nós
 não só queremos ver onde nós estamos, mas também queremos saber como chegamos lá." - Martin Fowler
@@ -391,7 +391,7 @@ https://www.upsolver.com/blog/cqrs-event-sourcing-build-database-architecture
 
 
 
-### DDD
+## DDD
 
 - Introduzido em 2003 por Eric Evans;
 - Indicado para aplicações complexas, com muitas entidades e regras de negócio;
@@ -443,7 +443,7 @@ https://github.com/VaughnVernon/IDDD_Samples
 
 
 
-### Arquiteturas Evolutivas
+## Arquiteturas Evolutivas
 
 - "Um arquiteto permite que decisões importantes sejam adiadas e um bom arquiteto maximiza o número de decisões não tomadas." - Uncle Bob
 - "Uma arquitetura evolutiva suporta mudanças continuas e incrementais como um primeiro principio por meio de varios aspectos." - Rebecca Parsons
@@ -464,7 +464,7 @@ https://github.com/EduardoPires/EquinoxProject
 
 
 
-### Conway's Law
+## Conway's Law
 
 - "Qualquer empresa que projeta um sistema, inevitavelmente produz um projeto cuja estrutura é uma cópia da estrutura 
 de comunicaçao da organização." - Melvin Conway
@@ -475,7 +475,7 @@ http://scrumbook.org/product-organization-pattern-language/conway-s-law.html
 
 
 
-### Agilidade e o manifesto agil
+## Agilidade e o manifesto agil
 
 - Individuos e interações mais que processos e ferramentas;
 - Software em funcionamento mais que documentação abrangente;
@@ -488,7 +488,7 @@ https://agilemanifesto.org/
 
 
 
-### DevOps
+## DevOps
 
 - O termo DevOps deriva da junção das palavras "desenvolvimento" (development) e "operações" (operations), sendo uma pratica de engenharia de software
 que possui o intuito de unificar o desenvolvimento de software (Dev) e a operação de software (Ops);
@@ -499,7 +499,7 @@ com os objetivos de negocios.
 
 
 
-### Principios DRY, KISS e YAGNI
+## Principios DRY, KISS e YAGNI
 
 - **Principios DRY** - Dont Repeat Yourself: Cada parte do conhecimento deve ter uma representação unica, nao ambigua e definitiva dentro da aplicação
 
@@ -518,7 +518,7 @@ https://danielsmanioto.com/blog/2020/01/18/dry-yagni-kiss-principios-de-design-d
 
 
 
-### Leituras recomendadas
+## Leituras recomendadas
 
 :books: Livros:
 
@@ -540,7 +540,7 @@ https://danielsmanioto.com/blog/2020/01/18/dry-yagni-kiss-principios-de-design-d
 - Apps and Services with .NET 7: Build Practical Projects with Blazor, .NET MAUI, GRPC, GraphQL, and Other Enterprise Technologies - Mark J. Price
 - C# 11 and . NET 7 - Modern Cross-Platform Development Fundamentals: Start Building Websites and Services with ASP. NET Core 7, Blazor, and EF Core 7, 7th Edition - Mark J. Price 
 
-### Outros:
+## Outros:
 
 - **Alternativa ao Automapper**
 
@@ -576,7 +576,7 @@ https://danielsmanioto.com/blog/2020/01/18/dry-yagni-kiss-principios-de-design-d
 	https://learn.microsoft.com/en-us/dotnet/architecture/dapr-for-net-developers/
 
 
-### Alguns ORMs
+## Alguns ORMs
 
 * **Dapper**: um micro ORM que pode ser usado em aplicações menos complexas.
 
