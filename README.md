@@ -242,12 +242,14 @@ e quais aspectos tecnológicos irão atender.
 É quando você tem toda a solução em um unico bloco ou projeto ou aplicação. (ja esta um pouco defasada, mas para resolver um problema mais simples, ja e o suficiente).
 
 Algumas referencias:
+
 https://marquesfernandes.com/tecnologia/o-que-e-um-sistema-aplicacao-monolito-monolitica/
 
 **Arquitetura em camadas**:
 É um estilo de gerenciar uma arquitetura que divide as responsabilidades em camadas especificas (ex:. Apresentação, Service, Business e Data)
 
 Algumas referencias:
+
 https://imasters.com.br/arquitetura-da-informacao/arquitetura-em-camadas
 https://learn.microsoft.com/pt-pt/azure/architecture/guide/architecture-styles/n-tier
 
@@ -255,6 +257,7 @@ https://learn.microsoft.com/pt-pt/azure/architecture/guide/architecture-styles/n
 É um padrão onde visa separar a forma que escreve a aplicação em APIs, bem utilizado em aplicações distribuidas (foi o primeiro passo para a ida aos microserviços)
 
 Algumas referencias:
+
 https://arquiteturadesoftware.online/fundamentos-para-sistemas-com-arquiteturas-rest/
 https://rockcontent.com/br/blog/rest/
 
@@ -262,12 +265,14 @@ https://rockcontent.com/br/blog/rest/
 Em uma arquitetura de micro serviços, múltiplos serviços fracamente acoplados (ou seja, com poucas ou nenhuma dependência entre si) trabalham juntos
 
 Algumas referencias:
+
 https://learn.microsoft.com/pt-pt/azure/architecture/guide/architecture-styles/microservices
 https://www.ibm.com/br-pt/cloud/learn/microservices
 
 **SOA vs Microserviços**:
 
 Algumas referencias:
+
 https://www.ibm.com/cloud/blog/soa-vs-microservices
 https://www.guru99.com/microservices-vs-soa.html
 
@@ -300,7 +305,10 @@ Algumas referencias:
 https://www.youtube.com/watch?v=sZPBvlmuvw4
 https://www.macoratti.net/20/05/net_onion1.htm
 https://medium.com/xp-inc/apreendendo-a-arquitetura-cebola-em-net-5-d2e06dcc9e8
-Livro: https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164
+
+Livro: 
+
+https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164
 
 
 **Padrão arquitetura Hexagonal "Ports & Adapters"**
