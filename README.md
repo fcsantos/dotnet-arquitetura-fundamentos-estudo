@@ -327,7 +327,7 @@ https://medium.com/tableless/desvendando-a-arquitetura-hexagonal-52c56f8824c
 
 
 
-**CQRS - Command Query Reponsability Segregation**
+## CQRS - Command Query Reponsability Segregation
 
 - Um padrão arquitetural onde o foco principal é separar os meios de leitura e escrita de dados. Alterações de dados são realizados via Commands 
 e leitura de dados são realizados via Queries.
@@ -356,7 +356,7 @@ https://www.eduardopires.net.br/2016/07/cqrs-o-que-e-onde-aplicar/
 
 
 
-**Event Sourcing**
+## Event Sourcing
 
 - "Nós podemos buscar o estao de uma aplicação para encontrar o estado atual do mundo, e isso responde muitas perguntas. Entretanto há momentos que nós
 não só queremos ver onde nós estamos, mas também queremos saber como chegamos lá." - Martin Fowler
@@ -376,7 +376,7 @@ https://www.upsolver.com/blog/cqrs-event-sourcing-build-database-architecture
 
 
 
-**DDD**
+## DDD
 
 - Introduzido em 2003 por Eric Evans;
 - Indicado para aplicações complexas, com muitas entidades e regras de negócio;
@@ -422,7 +422,7 @@ https://github.com/VaughnVernon/IDDD_Samples
 
 
 
-**Arquiteturas Evolutivas**
+## Arquiteturas Evolutivas
 
 - "Um arquiteto permite que decisões importantes sejam adiadas e um bom arquiteto maximiza o número de decisões não tomadas." - Uncle Bob
 - "Uma arquitetura evolutiva suporta mudanças continuas e incrementais como um primeiro principio por meio de varios aspectos." - Rebecca Parsons
@@ -443,7 +443,7 @@ https://github.com/EduardoPires/EquinoxProject
 
 
 
-**Conway's Law**
+## Conway's Law
 
 - "Qualquer empresa que projeta um sistema, inevitavelmente produz um projeto cuja estrutura é uma cópia da estrutura 
 de comunicaçao da organização." - Melvin Conway
@@ -454,7 +454,7 @@ http://scrumbook.org/product-organization-pattern-language/conway-s-law.html
 
 
 
-**Agilidade e o manifesto agil**
+## Agilidade e o manifesto agil
 
 - Individuos e interações mais que processos e ferramentas;
 - Software em funcionamento mais que documentação abrangente;
@@ -467,7 +467,7 @@ https://agilemanifesto.org/
 
 
 
-**DevOps**
+## DevOps
 
 - O termo DevOps deriva da junção das palavras "desenvolvimento" (development) e "operações" (operations), sendo uma pratica de engenharia de software
 que possui o intuito de unificar o desenvolvimento de software (Dev) e a operação de software (Ops);
