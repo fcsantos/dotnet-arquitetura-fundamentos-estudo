@@ -305,6 +305,7 @@ Algumas referencias:
 https://www.youtube.com/watch?v=sZPBvlmuvw4
 https://www.macoratti.net/20/05/net_onion1.htm
 https://medium.com/xp-inc/apreendendo-a-arquitetura-cebola-em-net-5-d2e06dcc9e8
+https://learn.microsoft.com/en-us/dotnet/architecture/
 
 Livro: 
 
@@ -513,6 +514,8 @@ Livros:
 - Code Complete - Steve McConnell
 - Docker Deep Dive - Nigel Poulton
 - Concurrency in C# Cookbook: Asynchronous, Parallel, and Multithreaded Programming 2nd Edition - Stephen Cleary
+- Apps and Services with .NET 7: Build Practical Projects with Blazor, .NET MAUI, GRPC, GraphQL, and Other Enterprise Technologies - Mark J. Price
+- C# 11 and . NET 7 - Modern Cross-Platform Development Fundamentals: Start Building Websites and Services with ASP. NET Core 7, Blazor, and EF Core 7, 7th Edition - Mark J. Price 
 
 ## Outros:
 
@@ -544,10 +547,11 @@ https://www.rabbitmq.com/
 **Dapr**: é um sistema de tempo de execução gratuito e de código aberto projetado para suportar computação nativa em nuvem e sem servidor. Sua versão inicial suportava SDKs e APIs para Java, .NET, Python e Go e tinha como alvo o sistema de implantação de nuvem Kubernetes.
 
 https://dapr.io/
+https://github.com/renatogroffe/ASPNETCore7-REST_API-Dapr-StateManagement_ContagemAcessos
+https://learn.microsoft.com/en-us/dotnet/architecture/dapr-for-net-developers/
 
 
-
-## ORMs
+## Alguns ORMs
 
 **Dapper**: um micro ORM que pode ser usado em aplicações menos complexas.
 
