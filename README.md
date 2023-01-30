@@ -71,7 +71,7 @@ Exemplo: ICadastroCliente e ICadastroProduto herdam de ICadastro
 ### DIP - Dependency Inversion Principle
 - Dependa de uma abstração e não de uma implementação.
 
-Algumas referencias:
+:link: Algumas referencias:
 
 https://github.com/ardalis/SolidSample
 
@@ -81,7 +81,7 @@ https://github.com/ardalis/SolidSample
 - **Scoped**: Os objetos são criados uma vez por client request (por conexão), muito utilizado em aplicações Web;
 - **Singleton**: Cria uma unica instancia para toda a aplicação (todo o tempo de execução da aplicação);
 
-Algumas referencias:
+:link: Algumas referencias:
 
 https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-3.1
 
@@ -226,7 +226,7 @@ https://simpleinjector.readthedocs.io/en/latest/index.html
   - Não utilize sem conhecer;
   - Apesar de conhecer só utilize se necessário.
 
-Algumas referencias:
+:link: Algumas referencias:
 
 https://www.dofactory.com/net/design-patterns
 
@@ -244,13 +244,13 @@ https://github.com/KevinDockx/CSharp10DesignPatterns
 
 - **Arquitetura Monolítica**: é quando você tem toda a solução em um unico bloco ou projeto ou aplicação. (ja esta um pouco defasada, mas para resolver um problema mais simples, ja e o suficiente).
 
-Algumas referencias:
+:link: Algumas referencias:
 
 https://marquesfernandes.com/tecnologia/o-que-e-um-sistema-aplicacao-monolito-monolitica/
 
 - **Arquitetura em camadas**: é um estilo de gerenciar uma arquitetura que divide as responsabilidades em camadas especificas (ex:. Apresentação, Service, Business e Data)
 
-Algumas referencias:
+:link: Algumas referencias:
 
 https://imasters.com.br/arquitetura-da-informacao/arquitetura-em-camadas
 
@@ -258,7 +258,7 @@ https://learn.microsoft.com/pt-pt/azure/architecture/guide/architecture-styles/n
 
 - **Arquitetura Rest**: é um padrão onde visa separar a forma que escreve a aplicação em APIs, bem utilizado em aplicações distribuidas (foi o primeiro passo para a ida aos microserviços)
 
-Algumas referencias:
+:link: Algumas referencias:
 
 https://arquiteturadesoftware.online/fundamentos-para-sistemas-com-arquiteturas-rest/
 
@@ -266,7 +266,7 @@ https://rockcontent.com/br/blog/rest/
 
 - **Arquitetura de Microserviços**: em uma arquitetura de micro serviços, múltiplos serviços fracamente acoplados (ou seja, com poucas ou nenhuma dependência entre si) trabalham juntos
 
-Algumas referencias:
+:link: Algumas referencias:
 
 https://learn.microsoft.com/pt-pt/azure/architecture/guide/architecture-styles/microservices
 
@@ -274,7 +274,7 @@ https://www.ibm.com/br-pt/cloud/learn/microservices
 
 - **SOA vs Microserviços**:
 
-Algumas referencias:
+:link: Algumas referencias:
 
 https://www.ibm.com/cloud/blog/soa-vs-microservices
 	
@@ -304,7 +304,7 @@ https://www.guru99.com/microservices-vs-soa.html
 confiabilidade nas infraestruturas como bancos de dados e serviços.
 
 
-Algumas referencias:
+:link: Algumas referencias:
 
 https://www.youtube.com/watch?v=sZPBvlmuvw4
 
@@ -314,7 +314,7 @@ https://medium.com/xp-inc/apreendendo-a-arquitetura-cebola-em-net-5-d2e06dcc9e8
 
 https://learn.microsoft.com/en-us/dotnet/architecture/
 
-Livro: 
+:books: Livro: 
 
 https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164
 
@@ -325,7 +325,7 @@ https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/01344
 isolamento e dependência entre as camadas. Quando criado, teve como motivação os problemas citados no tema Camadas com relação a desorganização 
 no uso de camadas e a infiltração de lógica de negócio em outras camadas.
 
-Algumas referencias:
+:link: Algumas referencias:
 
 https://learning.eximia.co/videos/descomplicando-arquitetura-hexagonal/
 
@@ -359,7 +359,7 @@ ex: AumentarSlarioFuncionarioCommand
 
 **OBS**: O principal desafio do CQRS é manter as bases atualizadas.
 
-Algumas referencias:
+:link: Algumas referencias:
 
 https://learn.microsoft.com/pt-pt/azure/architecture/patterns/cqrs
 
@@ -377,7 +377,7 @@ mas também podemos usar este log de eventos para reonstruir estados passados e 
 dos fatos passados para entender o comportamento do usuário, trabalhr com Big Data, Machine Learning, realizar testes de integração com cenários reais ou 
 simplesmente recriar as entidades necessário.
 
-Algumas referencias:
+:link: Algumas referencias:
 
 https://martinfowler.com/eaaDev/EventSourcing.html
 
@@ -425,7 +425,7 @@ boas práticas.
 	repositorio por agregação.
 	- External Service: Serviço externo que realiza a consulta/persistencia de infomações por meios diversos.
 
-Algumas referencias:
+:link: Algumas referencias:
 
 https://www.google.com/search?rlz=1C1GCEA_enPT1016PT1016&biw=2133&bih=1076&q=Domain-Driven+Design:+Tackling+Complexity+in+the+Heart+of+Software&stick=H4sIAAAAAAAAAOOQUeLVT9c3NEwuyKowNTWsMuJMSUlRSMrPzy6O4gYxCxJLSlKL8k4x8oDUGSWZx1uYGqWcYkTVBuOnZRuaFFRVFsH46fF52QVFVZYw7UaG5mXmhcVw03Itsw0tTH8xcrq4uEBsbWBhXMTq5JKfm5iZp-tSlFmWmqfgklqcmZ5npRCSmJydk5mXruCcn1uQk1qRWVKpkJmnUJKRquCRmlhUopCfphCcn1ZSnliUeotNksH0YytT-If3iU9EP9VVCZzv23OodlqL3QV_AEQsfU_2AAAA&sa=X&ved=2ahUKEwj--tXRjJL7AhWWBhoKHSHWCdoQs9oBKAF6BAg5EAM
 
@@ -458,7 +458,7 @@ resolver o problema.
 - Esencial: Já a essencial é basicamente a complexidade que nosso "software" se propoe resolver. SIM, infelizmente existem problemas complexos, 
 e é neles que temos que focar
 
-Algumas referencias:
+:link: Algumas referencias:
 
 https://github.com/EduardoPires/EquinoxProject
 
@@ -469,7 +469,7 @@ https://github.com/EduardoPires/EquinoxProject
 - "Qualquer empresa que projeta um sistema, inevitavelmente produz um projeto cuja estrutura é uma cópia da estrutura 
 de comunicaçao da organização." - Melvin Conway
 
-Algumas referencias:
+:link: Algumas referencias:
 
 http://scrumbook.org/product-organization-pattern-language/conway-s-law.html
 
@@ -482,7 +482,7 @@ http://scrumbook.org/product-organization-pattern-language/conway-s-law.html
 - Colaboração com o cliente mais que negociação de contratos;
 - Responder a mudanças mais que seguir um plano.
 
-Algumas referencias:
+:link: Algumas referencias:
 
 https://agilemanifesto.org/
 
@@ -508,7 +508,7 @@ com os objetivos de negocios.
 - **Principio YAGNI** - You aint gonna need it: Uma orientação que sugere nao adicionar funcionalidades ao codigo fonte de uma aplicaçao ate que estas 
 sejam realmente necessarias.
 
-Algumas referencias:
+:link: Algumas referencias:
 
 https://pt.linkedin.com/pulse/princ%C3%ADpios-yagni-kiss-e-dry-emerson-romano
 
@@ -520,7 +520,7 @@ https://danielsmanioto.com/blog/2020/01/18/dry-yagni-kiss-principios-de-design-d
 
 ### Leituras recomendadas
 
-Livros:
+:books: Livros:
 
 - Clean Code (1º) - Robert C. martin
 - The Clean Coder (2º) - Robert C. Martin
