@@ -544,36 +544,36 @@ https://danielsmanioto.com/blog/2020/01/18/dry-yagni-kiss-principios-de-design-d
 
 - **Alternativa ao Automapper**
 
-https://riptutorial.com/csharp/example/19238/using-extension-methods-to-create-beautiful-mapper-classes
+	https://riptutorial.com/csharp/example/19238/using-extension-methods-to-create-beautiful-mapper-classes
 
 
 - **EventstoreDB**: base de dados para Event Sourcing (banco de dados funcional com Complex Event Processing em JavaScript)
 
-https://www.eventstore.com/
+	https://www.eventstore.com/
 
 
 - **Rebus**
 
-https://github.com/rebus-org/Rebus
+	https://github.com/rebus-org/Rebus
 
 
 - **Docker**: é um conjunto de produtos de plataforma como serviço que usam virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres. Os contêineres são isolados uns dos outros e agrupam seus próprios softwares, bibliotecas e arquivos de configuração.
 
-https://www.docker.com/
+	https://www.docker.com/
 
 
 - **RabbitMQ**: é um software de mensagens com código aberto, que implementou o protocolo "Advanced Message Queuing Protocol", que foi estendido com uma arquitetura de plug-in para suportar o protocolo "Streaming Text Oriented Messaging Protocol", o MQTT entre outros protocolos
 
-https://www.rabbitmq.com/
+	https://www.rabbitmq.com/
 
 
 - **Dapr**: é um sistema de tempo de execução gratuito e de código aberto projetado para suportar computação nativa em nuvem e sem servidor. Sua versão inicial suportava SDKs e APIs para Java, .NET, Python e Go e tinha como alvo o sistema de implantação de nuvem Kubernetes.
 
-https://dapr.io/
+	https://dapr.io/
 
-https://github.com/renatogroffe/ASPNETCore7-REST_API-Dapr-StateManagement_ContagemAcessos
+	https://github.com/renatogroffe/ASPNETCore7-REST_API-Dapr-StateManagement_ContagemAcessos
 
-https://learn.microsoft.com/en-us/dotnet/architecture/dapr-for-net-developers/
+	https://learn.microsoft.com/en-us/dotnet/architecture/dapr-for-net-developers/
 
 
 ### Alguns ORMs
