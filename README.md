@@ -225,6 +225,7 @@ https://simpleinjector.readthedocs.io/en/latest/index.html
   - Apesar de conhecer só utilize se necessário.
 
 Algumas referencias:
+
 https://www.dofactory.com/net/design-patterns
 https://refactoring.guru/pt-br/design-patterns/catalog
 https://github.com/KevinDockx/CSharp10DesignPatterns
@@ -239,25 +240,34 @@ e quais aspectos tecnológicos irão atender.
 
 **Arquitetura Monolítica**:
 É quando você tem toda a solução em um unico bloco ou projeto ou aplicação. (ja esta um pouco defasada, mas para resolver um problema mais simples, ja e o suficiente).
+
+Algumas referencias:
 https://marquesfernandes.com/tecnologia/o-que-e-um-sistema-aplicacao-monolito-monolitica/
 
 **Arquitetura em camadas**:
 É um estilo de gerenciar uma arquitetura que divide as responsabilidades em camadas especificas (ex:. Apresentação, Service, Business e Data)
+
+Algumas referencias:
 https://imasters.com.br/arquitetura-da-informacao/arquitetura-em-camadas
 https://learn.microsoft.com/pt-pt/azure/architecture/guide/architecture-styles/n-tier
 
 **Arquitetura Rest**:
 É um padrão onde visa separar a forma que escreve a aplicação em APIs, bem utilizado em aplicações distribuidas (foi o primeiro passo para a ida aos microserviços)
+
+Algumas referencias:
 https://arquiteturadesoftware.online/fundamentos-para-sistemas-com-arquiteturas-rest/
 https://rockcontent.com/br/blog/rest/
 
 **Arquitetura de Microserviços**:
 Em uma arquitetura de micro serviços, múltiplos serviços fracamente acoplados (ou seja, com poucas ou nenhuma dependência entre si) trabalham juntos
+
+Algumas referencias:
 https://learn.microsoft.com/pt-pt/azure/architecture/guide/architecture-styles/microservices
 https://www.ibm.com/br-pt/cloud/learn/microservices
 
 **SOA vs Microserviços**:
 
+Algumas referencias:
 https://www.ibm.com/cloud/blog/soa-vs-microservices
 https://www.guru99.com/microservices-vs-soa.html
 
@@ -398,6 +408,8 @@ https://medium.com/beelabacademy/domain-driven-design-vs-arquitetura-em-camadas-
 https://fullcycle.com.br/domain-driven-design/
 https://www.eduardopires.net.br/2016/03/ddd-bounded-context/
 https://martinfowler.com/tags/domain%20driven%20design.html
+https://www.eduardopires.net.br/2016/08/ddd-nao-e-arquitetura-em-camadas/
+https://github.com/VaughnVernon/IDDD_Samples
 
 
 
@@ -459,11 +471,11 @@ com os objetivos de negocios.
 
 **Principios DRY, KISS e YAGNI**
 
-Principios DRY - Dont Repeat Yourself: Cada parte do conhecimento deve ter uma representação unica, nao ambigua e definitiva dentro da aplicação
+**Principios DRY** - Dont Repeat Yourself: Cada parte do conhecimento deve ter uma representação unica, nao ambigua e definitiva dentro da aplicação
 
-Principio KISS - Keep it simple, stupid: O KISS valoriza a simplicidade do projeto e defende que toda a complexidade desnecessaria seja descartada.
+**Principio KISS** - Keep it simple, stupid: O KISS valoriza a simplicidade do projeto e defende que toda a complexidade desnecessaria seja descartada.
 
-Principio YAGNI - You aint gonna need it: Uma orientação que sugere nao adicionar funcionalidades ao codigo fonte de uma aplicaçao ate que estas 
+**Principio YAGNI** - You aint gonna need it: Uma orientação que sugere nao adicionar funcionalidades ao codigo fonte de uma aplicaçao ate que estas 
 sejam realmente necessarias.
 
 Algumas referencias:
@@ -489,7 +501,13 @@ Livros:
 - C# 10 - Mark J. Price
 - Desing Pattern - gang of 4
 
+**Outros**:
 
-**DevOps**
+Alternativa ao Automapper
+https://riptutorial.com/csharp/example/19238/using-extension-methods-to-create-beautiful-mapper-classes
 
+EventstoreDB
+https://www.eventstore.com/
 
+Rebus
+https://github.com/rebus-org/Rebus
