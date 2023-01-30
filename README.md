@@ -736,3 +736,6 @@ https://danielsmanioto.com/blog/2020/01/18/dry-yagni-kiss-principios-de-design-d
 	https://renatogroffe.medium.com/testes-de-software-com-net-5-exemplos-de-utiliza%C3%A7%C3%A3o-9b5514119ba2
 	
 ![1-Testes de Unidade - Frameworks - XUnit - comparativo com outros frameworks](https://user-images.githubusercontent.com/6061345/215500906-cb4c62b4-dc47-494c-9b0e-8484e7af8cfc.JPG)
+
+
+## Falta os Testes: TDD, de Integração, BDD, Automatizados e de Carga
