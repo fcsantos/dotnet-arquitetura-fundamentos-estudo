@@ -331,6 +331,8 @@ https://medium.com/xp-inc/apreendendo-a-arquitetura-cebola-em-net-5-d2e06dcc9e8
 
 https://learn.microsoft.com/en-us/dotnet/architecture/
 
+https://github.com/ardalis/CleanArchitecture
+
 :books: Livro: 
 
 https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164
