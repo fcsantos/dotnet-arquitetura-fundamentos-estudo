@@ -1,9 +1,13 @@
 ## RESUMO
 
+
+
 ## Classe x Objeto
 
 - Classe: Definição de Classe: é uma estrutura de código ou dados que tem a função de mapear o objeto do mundo real;
 - Objeto: Definição de Objeto: é quando tem uma classe sendo instanciada e alocada na memória;
+
+
 
 ## Pilares OOP
 
@@ -18,12 +22,16 @@
 - **Poli-morfismo**: a classe derivada pode assumir diversos comportamentos;
 - **Encapsulamento**: é a arte de encapsular comportamentos(métodos) através da exposição de métodos PUBLIC e esconder certos comportamentos a escrita de métodos PRIVATE (preservando certas implementações);
 
+
+
 ## Interface
 
 - **Interface**: é uma espécie de contrato simples, então toda classe que implementa uma interface ela é obrigada a implementar seus métodos;
     
     **OBS**: não pode ser comparada com a Classe Abstrata, porque uma classe abstrata forca a implementacao de metodos tambem
       implementa alguns comportamentos que podem ser derivados
+
+
 
 ## Modificadores
 - **classe selada** só pode ser instanciada e não herdada;
@@ -33,6 +41,8 @@
 - **Método PROTECTED INTERNAL**: Access is limited to the current assembly or types derived from the containing class;
 - **Classe e Método PRIVATE**: Access is limited to the containing type;
 - **Método PRIVATE PROTECTED**: Access is limited to the containing class or types derived from the containing class within the current assembly.Available since C# 7.2;
+
+
 
 ## Princípios SOLID
 
@@ -75,6 +85,8 @@ Exemplo: ICadastroCliente e ICadastroProduto herdam de ICadastro
 
 https://github.com/ardalis/SolidSample
 
+
+
 ## Dependency Injection
 
 - **Transient**: Modelo padrão (quando não se sabe como usar, seria a melhor escolha), vai ser criada toda vez que for injetada em alguma classe, funciona melhor em objetos leves ou serviços sem estado (ocupa mais memória, porque toda vez que é requisitado cria uma instancia);
@@ -88,6 +100,8 @@ https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?v
 https://www.palmmedia.de/blog/2011/8/30/ioc-container-benchmark-performance-comparison
 
 https://simpleinjector.readthedocs.io/en/latest/index.html
+
+
 
 ## Clean Code
 - **O que é um código limpo?**
@@ -201,6 +215,7 @@ https://simpleinjector.readthedocs.io/en/latest/index.html
    * Regra dos escoteiros: "Deixe a área de acampamento mais limpa de como você a encontrou" (melhorar(refatorar) o maximo possivel o codigo que você esta alterando);
     
 
+
 ## Design Patterns
 - São padrões de código para solução de problemas conhecidos;
 - O objetivo é não reinventar a roda e aplicar uma solução com um bom design de código;
@@ -233,6 +248,8 @@ https://www.dofactory.com/net/design-patterns
 https://refactoring.guru/pt-br/design-patterns/catalog
 
 https://github.com/KevinDockx/CSharp10DesignPatterns
+
+
 
 ## Arquitetura de Software
 
@@ -450,7 +467,6 @@ https://github.com/VaughnVernon/IDDD_Samples
 - "Mudanças são inevitaveis. A evolução, no entanto, é opcional." - Tony Robbins
 
 
-
 **Sempre considere a complexidade!**
 
 - Acidental: Complexidade acidental é aquela que surge durante o processo de desenvolvimento, ou seja, ela é CAUSADA pela abordagem escolhida para
@@ -540,6 +556,8 @@ https://danielsmanioto.com/blog/2020/01/18/dry-yagni-kiss-principios-de-design-d
 - Apps and Services with .NET 7: Build Practical Projects with Blazor, .NET MAUI, GRPC, GraphQL, and Other Enterprise Technologies - Mark J. Price
 - C# 11 and . NET 7 - Modern Cross-Platform Development Fundamentals: Start Building Websites and Services with ASP. NET Core 7, Blazor, and EF Core 7, 7th Edition - Mark J. Price 
 
+
+
 ## Outros:
 
 - **Alternativa ao Automapper**
@@ -562,7 +580,7 @@ https://danielsmanioto.com/blog/2020/01/18/dry-yagni-kiss-principios-de-design-d
 	https://www.docker.com/
 
 
-- **RabbitMQ**: é um software de mensagens com código aberto, que implementou o protocolo "Advanced Message Queuing Protocol", que foi estendido com uma arquitetura de plug-in para suportar o protocolo "Streaming Text Oriented Messaging Protocol", o MQTT entre outros protocolos
+- **RabbitMQ**: é um software de mensagens com código aberto, que implementou o protocolo "Advanced Message Queuing Protocol", que foi estendido com uma arquitetura de plug-in para suportar o protocolo "Streaming Text Oriented Messaging Protocol", o MQTT entre outros protocolos.
 
 	https://www.rabbitmq.com/
 
@@ -576,9 +594,12 @@ https://danielsmanioto.com/blog/2020/01/18/dry-yagni-kiss-principios-de-design-d
 	https://learn.microsoft.com/en-us/dotnet/architecture/dapr-for-net-developers/
 
 
+
 ## Alguns ORMs
 
 * **Dapper**: um micro ORM que pode ser usado em aplicações menos complexas.
+
+	:link: Algumas referencias:
 
 	https://github.com/DapperLib/Dapper
 
@@ -588,6 +609,8 @@ https://danielsmanioto.com/blog/2020/01/18/dry-yagni-kiss-principios-de-design-d
 
 
 * **Entity Framework**: é uma ferramenta ORM (Object-relational mapping) que permite ao desenvolvedor trabalhar com dados relacionais na forma de objetos específicos do domínio.
+
+	:link: Algumas referencias:
 
 	https://learn.microsoft.com/en-us/ef/
 
@@ -600,8 +623,116 @@ https://danielsmanioto.com/blog/2020/01/18/dry-yagni-kiss-principios-de-design-d
 
 * **NHibernate**: é um framework para realizar o mapeamento objeto/relacional de modo a transformar os dados da estrutura lógica de um banco de dados relacional em objetos definidos no domínio de uma aplicação. Ele também realiza a persistência de objetos em banco de dados relacionais.
 
+	:link: Algumas referencias:
+	
 	https://nhibernate.info/
 
 	https://github.com/nhibernate/nhibernate-core
 
 	https://www.macoratti.net/19/07/aspnc_nhib1.htm
+
+
+
+## Tipos de Testes
+
+* **Testes de unidade**: O Teste de unidade ou Teste Unitário é a fase do processo de teste em que se testam as menores unidades de software desenvolvidas (pequenas partes ou unidades do sistema). O alvo são os métodos dos objetos ou módulos/funções ou mesmo pequenos trechos de código. O objetivo é encontrar falhas de funcionamento em uma pequena parte do sistema funcionando independentemente do todo.
+
+  * **Frameworks**
+	
+   	- **MSTest**: é a estrutura de teste da Microsoft para todas as linguagens .NET. Ele é extensível e funciona com a CLI do .NET e com o Visual Studio.
+   	
+	   https://github.com/Microsoft/testfx-docs
+   
+   	- **NUnit**: é uma estrutura de teste de unidade para todos as linguagens do .NET. Inicialmente portado do JUnit, teve a versão de produção atual reescrita com muitos novos recursos e suporte a uma ampla gama de plataformas .NET. É um projeto da .NET Foundation.
+   	
+	   https://nunit.org/
+   
+   	- **xUnit**: é uma ferramenta de teste de unidade gratuita, de código aberto e focada na comunidade para .NET. Escrito pelo inventor original do NUnit v2, xUnit.net é a tecnologia mais recente para testes de unidade em aplicativos .NET. O xUnit.net funciona com ReSharper, CodeRush, TestDriven.NET e Xamarin. É um projeto da .NET Foundation e opera sob seu código de conduta.
+   	
+	   **OBS**: Utilizado pelo time de desenvolvimento do .NET Core e ASP.NET
+	   
+	   https://xunit.net/		
+
+
+  * **Moq**: 
+  	
+	São objetos que simulam o comportamento de objetos reais de forma controlada.
+	São normalmente criados para testa o comportamnto de outros objetos. Em outras palavras, os objetos mock são objetos "falsos" que simulam o comprtamento de uma classe ou objeto "real" para que possamos focar o teste na unidade a ser testada.
+	Uma vantagem do Mock é que o objeto simulado pode ser criado dinamicamente através de um framework de Mock e poupando o desenvolvedor ter que criar uma classe física para simular aquele objeto.
+	Uma classe física que simula o objeto costuma ser chamada de Fake, mas na teoria é um Mock, a diferença é que foi criada manualmente.
+	
+	**OBS**: Utilizado pelo time de desenvolvimento do .NET Core e ASP.NET
+  	
+	https://github.com/moq/moq4
+	
+	
+  * **Executando os testes na Linha de Comando**:
+ 
+  	https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-vstest
+	
+	
+  * **Nomenclatura**:
+	
+	- ObjetoEmTeste_MetodoComportamentoEmTeste_ComportamentoEsperado
+	- MetodoEmTeste_EstadoEmTeste_ComportamentoEsperado
+
+
+  * **Fixture**:
+  	
+	No fixture o objeto é criado e fica disponivel para todos os testes que tiverem rodando naquela coleçao e depois destroi no dispose.
+	
+	https://www.luisdev.com.br/2021/03/02/testes-unitarios-com-c-e-xunit-parte-4-autofixture/
+
+
+  * **Ordem**:
+  
+  	So fazer quando for requisitado, mas nao e uma "melhor prática" fazer no unit test, é mais usado no teste de integração.
+	
+	https://www.thecodebuzz.com/order-unit-test-cases-or-integration-testing-guidelines/
+	
+	
+  * **Bogus**:
+	
+	É uma biblioteca criada por Brian Chavez que se propõe a gerar dados fake para realização de testes.
+	
+	https://github.com/bchavez/Bogus
+	
+	
+  * **AutoMocker**:
+	
+	Um contêiner automocking para Moq. Use isso se você investiu em seu contêiner IoC e deseja desacoplar seus testes de unidade das alterações nos argumentos do construtor.
+	
+	https://github.com/moq/Moq.AutoMocker
+	
+	
+  * **Fluent Assertions**:
+
+	É um conjunto de métodos de extensão .NET que permite especificar mais naturalmente o resultado esperado de um teste de unidade estilo TDD ou BDD.
+	
+	https://fluentassertions.com/introduction
+	
+	
+  * **Code Coverage**:
+
+	Como utilizar a ferramenta code coverage do visual studio enterprise:
+		no menu test -> analyze code coverage for all test
+
+	**OBS**: no minimo o codigo tem que estar coberto entre 80% a 99%, mas se tiver 100% excelente
+	
+	https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-code-coverage?tabs=windows
+	
+	https://learn.microsoft.com/en-us/samples/dotnet/samples/unit-testing-code-coverage-cs/
+	
+	
+
+	:link: Algumas referencias:
+
+	https://learn.microsoft.com/pt-br/dotnet/core/testing/#unit-tests
+
+	https://learn.microsoft.com/pt-br/dotnet/core/testing/unit-testing-best-practices
+
+	https://www.macoratti.net/19/09/aspnc_utst1.htm
+
+	https://renatogroffe.medium.com/testes-de-software-com-net-5-exemplos-de-utiliza%C3%A7%C3%A3o-9b5514119ba2
+	
+![1-Testes de Unidade - Frameworks - XUnit - comparativo com outros frameworks](https://user-images.githubusercontent.com/6061345/215500906-cb4c62b4-dc47-494c-9b0e-8484e7af8cfc.JPG)
