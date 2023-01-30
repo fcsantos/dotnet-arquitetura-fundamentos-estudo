@@ -84,7 +84,9 @@ https://github.com/ardalis/SolidSample
 Algumas referencias:
 
 https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-3.1
+
 https://www.palmmedia.de/blog/2011/8/30/ioc-container-benchmark-performance-comparison
+
 https://simpleinjector.readthedocs.io/en/latest/index.html
 
 ### Clean Code
@@ -227,53 +229,55 @@ https://simpleinjector.readthedocs.io/en/latest/index.html
 Algumas referencias:
 
 https://www.dofactory.com/net/design-patterns
+
 https://refactoring.guru/pt-br/design-patterns/catalog
+
 https://github.com/KevinDockx/CSharp10DesignPatterns
 
 ### Arquitetura de Software
 
-**Estilos Arquiteturais**
+- **Estilos Arquiteturais**
 
-- Um estilo arquitetural é uma abordagem de como projetar e entregar uma aplicação;
-- Trata-se de como organizar os componentes responsáveis de uma arquitetura, como eles irão interagir entre si
-e quais aspectos tecnológicos irão atender.
+  * Um estilo arquitetural é uma abordagem de como projetar e entregar uma aplicação;
+  * Trata-se de como organizar os componentes responsáveis de uma arquitetura, como eles irão interagir entre si
+  e quais aspectos tecnológicos irão atender.
 
-**Arquitetura Monolítica**:
-É quando você tem toda a solução em um unico bloco ou projeto ou aplicação. (ja esta um pouco defasada, mas para resolver um problema mais simples, ja e o suficiente).
+- **Arquitetura Monolítica**: é quando você tem toda a solução em um unico bloco ou projeto ou aplicação. (ja esta um pouco defasada, mas para resolver um problema mais simples, ja e o suficiente).
 
 Algumas referencias:
 
 https://marquesfernandes.com/tecnologia/o-que-e-um-sistema-aplicacao-monolito-monolitica/
 
-**Arquitetura em camadas**:
-É um estilo de gerenciar uma arquitetura que divide as responsabilidades em camadas especificas (ex:. Apresentação, Service, Business e Data)
+- **Arquitetura em camadas**: é um estilo de gerenciar uma arquitetura que divide as responsabilidades em camadas especificas (ex:. Apresentação, Service, Business e Data)
 
 Algumas referencias:
 
 https://imasters.com.br/arquitetura-da-informacao/arquitetura-em-camadas
+
 https://learn.microsoft.com/pt-pt/azure/architecture/guide/architecture-styles/n-tier
 
-**Arquitetura Rest**:
-É um padrão onde visa separar a forma que escreve a aplicação em APIs, bem utilizado em aplicações distribuidas (foi o primeiro passo para a ida aos microserviços)
+- **Arquitetura Rest**: é um padrão onde visa separar a forma que escreve a aplicação em APIs, bem utilizado em aplicações distribuidas (foi o primeiro passo para a ida aos microserviços)
 
 Algumas referencias:
 
 https://arquiteturadesoftware.online/fundamentos-para-sistemas-com-arquiteturas-rest/
+
 https://rockcontent.com/br/blog/rest/
 
-**Arquitetura de Microserviços**:
-Em uma arquitetura de micro serviços, múltiplos serviços fracamente acoplados (ou seja, com poucas ou nenhuma dependência entre si) trabalham juntos
+- **Arquitetura de Microserviços**: em uma arquitetura de micro serviços, múltiplos serviços fracamente acoplados (ou seja, com poucas ou nenhuma dependência entre si) trabalham juntos
 
 Algumas referencias:
 
 https://learn.microsoft.com/pt-pt/azure/architecture/guide/architecture-styles/microservices
+
 https://www.ibm.com/br-pt/cloud/learn/microservices
 
-**SOA vs Microserviços**:
+- **SOA vs Microserviços**:
 
 Algumas referencias:
 
 https://www.ibm.com/cloud/blog/soa-vs-microservices
+	
 https://www.guru99.com/microservices-vs-soa.html
 
 
@@ -283,7 +287,7 @@ https://www.guru99.com/microservices-vs-soa.html
 - Os Padrões arquiteturais são semelhantes aos "Desing Patterns", mas possuem um escopo diferente.
 - Padrões arquiteturais são estratégias de alto nível que dizem respeito a componentes de grande escala, as propriedades e mecanismos globais de um sistema.
 - Um projeto de arquitetura pode conter diversos estilos arquiteturais, e cada estilo arquitetural pode utilizar diversos padrões arquiteturais. 
-Um padrão arquitetural pode ser um subconjunto de um estilo arquitetural visando um escopo especifico.
+- Um padrão arquitetural pode ser um subconjunto de um estilo arquitetural visando um escopo especifico.
 - Um padrão arquitetural é uma solução geral e reutilizavel para um problema em um contexto particular. É uma solução recorrente para um problema recorrente.
 
 
@@ -303,8 +307,11 @@ confiabilidade nas infraestruturas como bancos de dados e serviços.
 Algumas referencias:
 
 https://www.youtube.com/watch?v=sZPBvlmuvw4
+
 https://www.macoratti.net/20/05/net_onion1.htm
+
 https://medium.com/xp-inc/apreendendo-a-arquitetura-cebola-em-net-5-d2e06dcc9e8
+
 https://learn.microsoft.com/en-us/dotnet/architecture/
 
 Livro: 
@@ -321,8 +328,11 @@ no uso de camadas e a infiltração de lógica de negócio em outras camadas.
 Algumas referencias:
 
 https://learning.eximia.co/videos/descomplicando-arquitetura-hexagonal/
+
 https://guia.dev/pt/pillars/software-architecture/layers-and-architecture-patterns.html#hexagonal-architecture
+
 https://pt.linkedin.com/pulse/arquitetura-hexagonal-introdu%C3%A7%C3%A3o-e-estrutura-douglas-santana
+
 https://medium.com/tableless/desvendando-a-arquitetura-hexagonal-52c56f8824c
 
 
@@ -338,20 +348,21 @@ exatamente no mesmo momento.
 
 **Conceitos**:
 
-Commands: Representam uma intenção de mudança no estado de uma entidade. São expressivos e representam uma única intenção de negócio, 
+  - Commands: Representam uma intenção de mudança no estado de uma entidade. São expressivos e representam uma única intenção de negócio, 
 ex: AumentarSlarioFuncionarioCommand
 
-Queries: É a forma de obter dados de um banco o origem de dados para atender as necessidades da aplicação
+  - Queries: É a forma de obter dados de um banco o origem de dados para atender as necessidades da aplicação
 
 **Solução**:
 
-Separar em 2 bancos um de leitura e outro de escrita, utilizando comandos para atualizar dados e consultas para ler dados.
+  - Separar em 2 bancos um de leitura e outro de escrita, utilizando comandos para atualizar dados e consultas para ler dados.
 
-OBS: O principal desafio do CQRS é manter as bases atualizadas.
+**OBS**: O principal desafio do CQRS é manter as bases atualizadas.
 
 Algumas referencias:
 
 https://learn.microsoft.com/pt-pt/azure/architecture/patterns/cqrs
+
 https://www.eduardopires.net.br/2016/07/cqrs-o-que-e-onde-aplicar/
 
 
@@ -369,9 +380,13 @@ simplesmente recriar as entidades necessário.
 Algumas referencias:
 
 https://martinfowler.com/eaaDev/EventSourcing.html
+
 https://learn.microsoft.com/en-us/azure/architecture/patterns/event-sourcing
+
 https://medium.com/design-microservices-architecture-with-patterns/event-sourcing-pattern-in-microservices-architectures-e72bf0fc9274
+
 https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-data-persistence/service-per-team.html
+
 https://www.upsolver.com/blog/cqrs-event-sourcing-build-database-architecture
 
 
@@ -413,11 +428,17 @@ boas práticas.
 Algumas referencias:
 
 https://www.google.com/search?rlz=1C1GCEA_enPT1016PT1016&biw=2133&bih=1076&q=Domain-Driven+Design:+Tackling+Complexity+in+the+Heart+of+Software&stick=H4sIAAAAAAAAAOOQUeLVT9c3NEwuyKowNTWsMuJMSUlRSMrPzy6O4gYxCxJLSlKL8k4x8oDUGSWZx1uYGqWcYkTVBuOnZRuaFFRVFsH46fF52QVFVZYw7UaG5mXmhcVw03Itsw0tTH8xcrq4uEBsbWBhXMTq5JKfm5iZp-tSlFmWmqfgklqcmZ5npRCSmJydk5mXruCcn1uQk1qRWVKpkJmnUJKRquCRmlhUopCfphCcn1ZSnliUeotNksH0YytT-If3iU9EP9VVCZzv23OodlqL3QV_AEQsfU_2AAAA&sa=X&ved=2ahUKEwj--tXRjJL7AhWWBhoKHSHWCdoQs9oBKAF6BAg5EAM
+
 https://medium.com/beelabacademy/domain-driven-design-vs-arquitetura-em-camadas-d01455698ec5
+
 https://fullcycle.com.br/domain-driven-design/
+
 https://www.eduardopires.net.br/2016/03/ddd-bounded-context/
+
 https://martinfowler.com/tags/domain%20driven%20design.html
+
 https://www.eduardopires.net.br/2016/08/ddd-nao-e-arquitetura-em-camadas/
+
 https://github.com/VaughnVernon/IDDD_Samples
 
 
@@ -480,17 +501,19 @@ com os objetivos de negocios.
 
 ### Principios DRY, KISS e YAGNI
 
-**Principios DRY** - Dont Repeat Yourself: Cada parte do conhecimento deve ter uma representação unica, nao ambigua e definitiva dentro da aplicação
+- **Principios DRY** - Dont Repeat Yourself: Cada parte do conhecimento deve ter uma representação unica, nao ambigua e definitiva dentro da aplicação
 
-**Principio KISS** - Keep it simple, stupid: O KISS valoriza a simplicidade do projeto e defende que toda a complexidade desnecessaria seja descartada.
+- **Principio KISS** - Keep it simple, stupid: O KISS valoriza a simplicidade do projeto e defende que toda a complexidade desnecessaria seja descartada.
 
-**Principio YAGNI** - You aint gonna need it: Uma orientação que sugere nao adicionar funcionalidades ao codigo fonte de uma aplicaçao ate que estas 
+- **Principio YAGNI** - You aint gonna need it: Uma orientação que sugere nao adicionar funcionalidades ao codigo fonte de uma aplicaçao ate que estas 
 sejam realmente necessarias.
 
 Algumas referencias:
 
 https://pt.linkedin.com/pulse/princ%C3%ADpios-yagni-kiss-e-dry-emerson-romano
+
 https://dev.to/urielsouza29/kiss-yagni-dry-tres-principios-que-todo-desenvolvedor-deveria-conhecer-47gg
+
 https://danielsmanioto.com/blog/2020/01/18/dry-yagni-kiss-principios-de-design-de-software-que-todo-desenvolvedor-deveria-seguir/
 
 
@@ -519,57 +542,66 @@ Livros:
 
 ### Outros:
 
-**Alternativa ao Automapper**
+- **Alternativa ao Automapper**
 
 https://riptutorial.com/csharp/example/19238/using-extension-methods-to-create-beautiful-mapper-classes
 
 
-**EventstoreDB**: base de dados para Event Sourcing (banco de dados funcional com Complex Event Processing em JavaScript)
+- **EventstoreDB**: base de dados para Event Sourcing (banco de dados funcional com Complex Event Processing em JavaScript)
 
 https://www.eventstore.com/
 
 
-**Rebus**
+- **Rebus**
 
 https://github.com/rebus-org/Rebus
 
 
-**Docker**: é um conjunto de produtos de plataforma como serviço que usam virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres. Os contêineres são isolados uns dos outros e agrupam seus próprios softwares, bibliotecas e arquivos de configuração.
+- **Docker**: é um conjunto de produtos de plataforma como serviço que usam virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres. Os contêineres são isolados uns dos outros e agrupam seus próprios softwares, bibliotecas e arquivos de configuração.
 
 https://www.docker.com/
 
 
-**RabbitMQ**: é um software de mensagens com código aberto, que implementou o protocolo "Advanced Message Queuing Protocol", que foi estendido com uma arquitetura de plug-in para suportar o protocolo "Streaming Text Oriented Messaging Protocol", o MQTT entre outros protocolos
+- **RabbitMQ**: é um software de mensagens com código aberto, que implementou o protocolo "Advanced Message Queuing Protocol", que foi estendido com uma arquitetura de plug-in para suportar o protocolo "Streaming Text Oriented Messaging Protocol", o MQTT entre outros protocolos
 
 https://www.rabbitmq.com/
 
 
-**Dapr**: é um sistema de tempo de execução gratuito e de código aberto projetado para suportar computação nativa em nuvem e sem servidor. Sua versão inicial suportava SDKs e APIs para Java, .NET, Python e Go e tinha como alvo o sistema de implantação de nuvem Kubernetes.
+- **Dapr**: é um sistema de tempo de execução gratuito e de código aberto projetado para suportar computação nativa em nuvem e sem servidor. Sua versão inicial suportava SDKs e APIs para Java, .NET, Python e Go e tinha como alvo o sistema de implantação de nuvem Kubernetes.
 
 https://dapr.io/
+
 https://github.com/renatogroffe/ASPNETCore7-REST_API-Dapr-StateManagement_ContagemAcessos
+
 https://learn.microsoft.com/en-us/dotnet/architecture/dapr-for-net-developers/
 
 
 ### Alguns ORMs
 
-**Dapper**: um micro ORM que pode ser usado em aplicações menos complexas.
+* **Dapper**: um micro ORM que pode ser usado em aplicações menos complexas.
 
-https://github.com/DapperLib/Dapper
-https://www.learndapper.com/
-https://www.macoratti.net/19/09/cshp_dapb1.htm
+	https://github.com/DapperLib/Dapper
 
+	https://www.learndapper.com/
 
-**Entity Framework**: é uma ferramenta ORM (Object-relational mapping) que permite ao desenvolvedor trabalhar com dados relacionais na forma de objetos específicos do domínio.
-
-https://learn.microsoft.com/en-us/ef/
-https://www.entityframeworktutorial.net/efcore/entity-framework-core.aspx
-https://www.macoratti.net/17/05/efcore_ini1.htm
-https://www.simplilearn.com/tutorials/asp-dot-net-tutorial/entity-framework-in-c-sharp
+	https://www.macoratti.net/19/09/cshp_dapb1.htm
 
 
-**NHibernate**: é um framework para realizar o mapeamento objeto/relacional de modo a transformar os dados da estrutura lógica de um banco de dados relacional em objetos definidos no domínio de uma aplicação. Ele também realiza a persistência de objetos em banco de dados relacionais.
+* **Entity Framework**: é uma ferramenta ORM (Object-relational mapping) que permite ao desenvolvedor trabalhar com dados relacionais na forma de objetos específicos do domínio.
 
-https://nhibernate.info/
-https://github.com/nhibernate/nhibernate-core
-https://www.macoratti.net/19/07/aspnc_nhib1.htm
+	https://learn.microsoft.com/en-us/ef/
+
+	https://www.entityframeworktutorial.net/efcore/entity-framework-core.aspx
+
+	https://www.macoratti.net/17/05/efcore_ini1.htm
+
+	https://www.simplilearn.com/tutorials/asp-dot-net-tutorial/entity-framework-in-c-sharp
+
+
+* **NHibernate**: é um framework para realizar o mapeamento objeto/relacional de modo a transformar os dados da estrutura lógica de um banco de dados relacional em objetos definidos no domínio de uma aplicação. Ele também realiza a persistência de objetos em banco de dados relacionais.
+
+	https://nhibernate.info/
+
+	https://github.com/nhibernate/nhibernate-core
+
+	https://www.macoratti.net/19/07/aspnc_nhib1.htm
