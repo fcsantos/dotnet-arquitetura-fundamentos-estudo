@@ -296,19 +296,21 @@ https://github.com/KevinDockx/CSharp10DesignPatterns
 
 ## Arquitetura de Software
 
-- **Estilos Arquiteturais**
+### Estilos Arquiteturais
 
   * Um estilo arquitetural é uma abordagem de como projetar e entregar uma aplicação;
   * Trata-se de como organizar os componentes responsáveis de uma arquitetura, como eles irão interagir entre si
   e quais aspectos tecnológicos irão atender.
 
-- **Arquitetura Monolítica**: é quando você tem toda a solução em um unico bloco ou projeto ou aplicação. (ja esta um pouco defasada, mas para resolver um problema mais simples, ja e o suficiente).
+### Arquitetura Monolítica: 
+  * é quando você tem toda a solução em um unico bloco ou projeto ou aplicação. (ja esta um pouco defasada, mas para resolver um problema mais simples, ja e o suficiente).
 
 :link: Algumas referencias:
 
 https://marquesfernandes.com/tecnologia/o-que-e-um-sistema-aplicacao-monolito-monolitica/
 
-- **Arquitetura em camadas**: é um estilo de gerenciar uma arquitetura que divide as responsabilidades em camadas especificas (ex:. Apresentação, Service, Business e Data)
+### Arquitetura em camadas: 
+  * é um estilo de gerenciar uma arquitetura que divide as responsabilidades em camadas especificas (ex:. Apresentação, Service, Business e Data)
 
 :link: Algumas referencias:
 
@@ -316,7 +318,8 @@ https://imasters.com.br/arquitetura-da-informacao/arquitetura-em-camadas
 
 https://learn.microsoft.com/pt-pt/azure/architecture/guide/architecture-styles/n-tier
 
-- **Arquitetura Rest**: é um padrão onde visa separar a forma que escreve a aplicação em APIs, bem utilizado em aplicações distribuidas (foi o primeiro passo para a ida aos microserviços)
+### Arquitetura Rest: 
+  * é um padrão onde visa separar a forma que escreve a aplicação em APIs, bem utilizado em aplicações distribuidas (foi o primeiro passo para a ida aos microserviços)
 
 :link: Algumas referencias:
 
@@ -324,7 +327,8 @@ https://arquiteturadesoftware.online/fundamentos-para-sistemas-com-arquiteturas-
 
 https://rockcontent.com/br/blog/rest/
 
-- **Arquitetura de Microserviços**: em uma arquitetura de micro serviços, múltiplos serviços fracamente acoplados (ou seja, com poucas ou nenhuma dependência entre si) trabalham juntos
+### Arquitetura de Microserviços: 
+  * em uma arquitetura de micro serviços, múltiplos serviços fracamente acoplados (ou seja, com poucas ou nenhuma dependência entre si) trabalham juntos
 
 :link: Algumas referencias:
 
@@ -334,7 +338,7 @@ https://www.ibm.com/br-pt/cloud/learn/microservices
 
 https://programmingwithwolfgang.com/microservice-series-from-zero-to-hero
 
-- **SOA vs Microserviços**:
+### SOA vs Microserviços:
 
 :link: Algumas referencias:
 
