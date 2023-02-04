@@ -1,3 +1,35 @@
+# Índice 
+
+* [Classe x Objeto](#classe-x-objeto)
+* [Pilares OOP](#pilares-oop)
+* [Interface](#interface)
+* [Modificadores](#modificadores)
+* [Princípios SOLID](#princ%C3%ADpios-solid)
+	* [SRP - Single Responsability Principle](#srp---single-responsability-principle)
+	* [OCP - Open Closed Principle](#ocp---open-closed-principle)
+	* [LSP- Liskov Substitution Principle](#lsp--liskov-substitution-principle)
+	* [ISP - Interface Segregation Principle](#isp---interface-segregation-principle)
+	* [DIP - Dependency Inversion Principle](#dip---dependency-inversion-principle)
+* [Dependency Injection](#dependency-injection)
+* [Clean Code](#clean-code)
+* [Design Patterns](#design-patterns)
+* [Arquitetura de Software](#arquitetura-de-software)
+* [Padrões arquiteturais](#padr%C3%B5es-arquiteturais)
+* [CQRS - Command Query Reponsability Segregation](#cqrs---command-query-reponsability-segregation)
+* [Event Sourcing](#event-sourcing)
+* [DDD](#ddd)
+* [Arquiteturas Evolutivas](#arquiteturas-evolutivas)
+* [Conway's Law](#conways-law)
+* [Agilidade e o manifesto agil](#agilidade-e-o-manifesto-agil)
+* [DevOps](#devops)
+* [Principios DRY, KISS e YAGNI](#principios-dry-kiss-e-yagni)
+* [Leituras recomendadas](#leituras-recomendadas)
+* [Outros](#outros)
+* [Alguns ORMs](#alguns-orms)
+* [Tipos de Testes](#tipos-de-testes)
+
+
+
 ## RESUMO
 
 
