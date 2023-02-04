@@ -136,7 +136,7 @@ https://simpleinjector.readthedocs.io/en/latest/index.html
 
 
 ## Clean Code
-- **O que é um código limpo?**
+### O que é um código limpo?
   * Simples;
   * Direto;
   * Eficiente;
@@ -145,14 +145,14 @@ https://simpleinjector.readthedocs.io/en/latest/index.html
   * Feito com cuidado;
   * Fácil de ler.
 
-- **Desculpas?**
+### Desculpas?
   * Mas o cronograma está apertado!
   * Meu chefe me pressiona a entregar logo!
   * Quero mostrar produtividade.
   * Não ganho o suficiente para escrever o melhor código do mundo!
   * A empresa não valoriza bom código e sim a entrega!
   
-- **Verdades que não lhe dizem...**
+### Verdades que não lhe dizem...
   * Sua carreira é sua responsabilidade!
   * Leia, Estude e Pratique;
   * Vá a conferências;
@@ -161,7 +161,7 @@ https://simpleinjector.readthedocs.io/en/latest/index.html
 **OBS1**: Não é a responsabilidade do seu empregador lhe oferecer cursos, oportunidades ou até mesmo um projeto com a tecnologia que pretende se especializar.   
 **OBS2**: "Você recebe para trabalhar 40 horas por semana e resolver os problemas da sua empresa, não os seus..." (Uncle Bob)
 
-- **Quanto custa um código ruim?**
+### Quanto custa um código ruim?
   * Alta rotatividade;
   * Demora na entrega de nova funcionalidades;
   * Dificuldade na manutenção;
@@ -170,7 +170,7 @@ https://simpleinjector.readthedocs.io/en/latest/index.html
   * Desmotivação profissional;
   * Mais tempo depurando o código do que escrevendo.
 
-- **Como medir um bom código?**
+### Como medir um bom código?
   * Linhas de código (depende do contexto);
   * Número de métodos (depende do contexto);
   * Número de classes
@@ -178,7 +178,7 @@ https://simpleinjector.readthedocs.io/en/latest/index.html
   * Complexidade ciclomática (pode ser evitada utilizando a separação de responsabilidade);
   * Número de estruturas de decisão;
  
-- **Nomes significativos!**
+### Nomes significativos!
   * Escolha os nomes que revelem intenção!
   * Por que existe;
   * O que faz;
@@ -194,7 +194,7 @@ https://simpleinjector.readthedocs.io/en/latest/index.html
   
   **OBS**:. O SOLID ajuda muito nesses sentidos.
 
-- **Boas práticas!**
+### Boas práticas!
   * Nome de **classes** devem ser **substantivos** e não devem conter verbos.
     Exemplo: ClienteRepository
     
@@ -213,13 +213,13 @@ https://simpleinjector.readthedocs.io/en/latest/index.html
     ProcessarFolhaPagamento();
     CalcularImpostoRenda();
     
- - **Menos é mais!**
+ ### Menos é mais!
    * "A primeira regra dos métodos é que eles devem ser pequenos. A segunda regra é que eles devem ser menores ainda." (Uncle Bob)
    * Método <= 20 linhas;
    * Linha <= 100 caracteres;
    * Classe <= 500 linhas;
 
- - **Métodos**
+ ### Métodos
    * Extraia trechos em métodos privados;
    * Métodos devem fazer apenas uma coisa, fazê-la certa e somente faze-la;
    * Evite muitos parâmetros(ex. criar DTO);
@@ -228,7 +228,7 @@ https://simpleinjector.readthedocs.io/en/latest/index.html
    * Leia seu método de cima para baixo como uma narrativa, ele deve fazer sentido;
    * Aplique uma boa indentação;
 
- - **Comentários**
+ ### Comentários
    * Comentários não vão ajudar um código ruim ser melhor interpretado;
    * Um código que requer comentário, precisa ser reescrito;
    * Não deixe trechos de código comentado;
@@ -238,7 +238,7 @@ https://simpleinjector.readthedocs.io/en/latest/index.html
     * Necessidade de explicar uma regra de negócio interna;
     * Decisões de design de código (ex.: ToDo);
 
- - **Tratamento de erros**
+ ### Tratamento de erros
    * Tratar e prever possíveis exceções é de responsabilidade do desenvolvedor (try e catch só se for muito expecífico), logar;
    * Retorne exceptions e não código de erro;
    * Informe o máximo que puder em sua exception, por meio de log;
