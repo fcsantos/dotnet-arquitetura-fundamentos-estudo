@@ -12,6 +12,17 @@
 	* [DIP - Dependency Inversion Principle](#dip---dependency-inversion-principle)
 * [Dependency Injection](#dependency-injection)
 * [Clean Code](#clean-code)
+	* [O que é um código limpo?](#o-que-%C3%A9-um-c%C3%B3digo-limpo)
+	* [Desculpas?](#desculpas)
+	* [Verdades que não lhe dizem...](#verdades-que-n%C3%A3o-lhe-dizem)
+	* [Quanto custa um código ruim?](#quanto-custa-um-c%C3%B3digo-ruim)
+	* [Como medir um bom código?](#como-medir-um-bom-c%C3%B3digo)
+	* [Nomes significativos!](#nomes-significativos)
+	* [Boas práticas!](#boas-pr%C3%A1ticas)
+	* [Menos é mais!](#menos-%C3%A9-mais)
+	* [Métodos](#m%C3%A9todos)
+	* [Comentários](#coment%C3%A1rios)
+	* [Tratamento de erros](#tratamento-de-erros)
 * [Design Patterns](#design-patterns)
 * [Arquitetura de Software](#arquitetura-de-software)
 * [Padrões arquiteturais](#padr%C3%B5es-arquiteturais)
@@ -464,7 +475,7 @@ boas práticas.
 	- Para documentar estar segregações responsaveis utilizamos o Mapa de Contextos(Context Map) que pode ser representado atraves de imagens e 
 	uma simples documentação do tipo de relacionamento entre os contextos;
 	- Cada contexto delimitado possui sua propria Linguagem Ubiqua, pois em contextos diferentes, os termos podem ter significados diferentes.
-- Definir a Arquitetura: ver imagem anexada ao projeto
+- Definir a Arquitetura
 - Modelagem Tática;
 	- Aggregate Object: Uma entidade que é raiz agregadora de um processo de dominio que envolve mais de uma entidade.
 	- Domain Model: Uma entidade do dominio, possui estados e comportamentos, logica de negocio, getters e setters AdHoc, etc.
