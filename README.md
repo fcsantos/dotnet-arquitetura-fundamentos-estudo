@@ -321,6 +321,8 @@ https://learn.microsoft.com/pt-pt/azure/architecture/guide/architecture-styles/m
 
 https://www.ibm.com/br-pt/cloud/learn/microservices
 
+https://programmingwithwolfgang.com/microservice-series-from-zero-to-hero
+
 - **SOA vs Microserviços**:
 
 :link: Algumas referencias:
