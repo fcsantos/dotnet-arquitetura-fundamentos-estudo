@@ -44,6 +44,7 @@
 * [Outros](#outros)
 * [Alguns ORMs](#alguns-orms)
 * [Tipos de Testes](#tipos-de-testes)
+* [Roadmap Backend Developer](#roadmap-backend-developer-httpsroadmapshbackend)
 
 
 
@@ -794,5 +795,6 @@ https://danielsmanioto.com/blog/2020/01/18/dry-yagni-kiss-principios-de-design-d
 	
 ![1-Testes de Unidade - Frameworks - XUnit - comparativo com outros frameworks](https://user-images.githubusercontent.com/6061345/215500906-cb4c62b4-dc47-494c-9b0e-8484e7af8cfc.JPG)
 
+## Roadmap Backend Developer: https://roadmap.sh/backend
 
 ## Falta os Testes: TDD, de Integração, BDD, Automatizados e de Carga
